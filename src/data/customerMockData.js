@@ -163,6 +163,77 @@ export const vehicleOptions = [
   },
 ];
 
+export const customerRegions = [
+  {
+    state: 'Tamil Nadu',
+    cities: ['Chennai', 'Coimbatore', 'Madurai', 'Trichy', 'Salem'],
+  },
+  {
+    state: 'Karnataka',
+    cities: ['Bengaluru', 'Mysuru', 'Hubballi', 'Mangaluru'],
+  },
+  {
+    state: 'Maharashtra',
+    cities: ['Mumbai', 'Pune', 'Nagpur', 'Nashik', 'Aurangabad'],
+  },
+  {
+    state: 'Telangana',
+    cities: ['Hyderabad', 'Warangal', 'Nizamabad'],
+  },
+  {
+    state: 'Kerala',
+    cities: ['Kochi', 'Trivandrum', 'Kozhikode'],
+  },
+  {
+    state: 'Gujarat',
+    cities: ['Ahmedabad', 'Surat', 'Vadodara', 'Rajkot'],
+  },
+  {
+    state: 'Delhi',
+    cities: ['New Delhi', 'Dwarka', 'Rohini'],
+  },
+  {
+    state: 'Rajasthan',
+    cities: ['Jaipur', 'Udaipur', 'Jodhpur', 'Kota'],
+  },
+  {
+    state: 'Uttar Pradesh',
+    cities: ['Lucknow', 'Kanpur', 'Noida', 'Varanasi'],
+  },
+  {
+    state: 'West Bengal',
+    cities: ['Kolkata', 'Durgapur', 'Siliguri'],
+  },
+];
+
+export const goodsTypeOptions = [
+  'FMCG',
+  'Retail cartons',
+  'Steel',
+  'Cement',
+  'Machinery',
+  'Electronics',
+  'Pharma',
+  'Textiles',
+  'Perishables',
+  'Construction material',
+];
+
+export const handlingOptions = [
+  'Fragile',
+  'Perishable',
+  'Hazardous',
+  'Temperature controlled',
+  'Loading help',
+  'Unloading help',
+  'Insurance required',
+  'E-way bill required',
+];
+
+export const paymentOptions = ['UPI', 'Cash', 'Bank transfer', 'Wallet', 'Credit'];
+
+export const urgencyOptions = ['Same day', 'Within 6 hours', 'Scheduled'];
+
 export const notifications = [
   {
     id: 'NTF-0001',
